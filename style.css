@@ -1,0 +1,12 @@
+canvas {
+    border: 3px #CCC solid;
+}
+button{
+	position: absolute;
+	border: none;
+	background: none;
+	color: none;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+}
