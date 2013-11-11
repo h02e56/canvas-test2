@@ -1,3 +1,5 @@
+console.log(changed);
+
 if ( !window.requestAnimationFrame ) {
  
 	window.requestAnimationFrame = ( function() {
@@ -161,7 +163,6 @@ var circle = ( function(){
 		},
 
 		listeners : function(){
-			var bodys = document.querySelectorAll('button');
 			document.addEventListener('click', this.click, true) ;
 		},
 
