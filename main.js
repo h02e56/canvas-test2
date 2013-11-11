@@ -1,5 +1,3 @@
-console.log(changed);
-
 if ( !window.requestAnimationFrame ) {
  
 	window.requestAnimationFrame = ( function() {
